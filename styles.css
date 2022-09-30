@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #010001;
+  background-image: url("https://wallpapercave.com/wp/wp6118215.jpg");
   font-family: "Arial Narrow Bold", sans-serif, Arial, Helvetica, sans-serif;
   color: #eaeded;
 }
@@ -44,9 +44,28 @@ body {
   border-radius: 15px;
   background-color: #2f1000;
   display: inline-block;
+  border: solid #c75000;
 }
 #myul {
   text-align: justify;
+}
+#yuul {
+  text-align: justify;
+}
+ol {
+  text-align: justify;
+}
+a:link {
+  color: #c75000;
+}
+a:hover {
+  color: #945600;
+}
+a:active {
+  color: #010001;
+}
+a:visited {
+  color: #eaeded;
 }
 #info {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -61,18 +80,19 @@ body {
   padding: 10px;
   border-radius: 15px;
   background-color: #2f1000;
+  border: solid #c75000;
 }
 #about {
   text-align: center;
+}
+#we {
+  text-align: left;
 }
 #ed {
   text-align: left;
 }
 #info span {
   color: #3983fa;
-  text-align: left;
-}
-#we {
   text-align: left;
 }
 
@@ -86,6 +106,7 @@ body {
   overflow: hidden;
   display: block;
   margin-bottom: 3%;
+  border: solid #c75000;
 }
 #photo-card p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -104,6 +125,7 @@ body {
 
 #photo-card img:hover {
   filter: blur(10px);
+  transition: 0.5s;
 }
 #face-photo {
   width: 100%;
@@ -111,10 +133,12 @@ body {
   object-fit: cover;
 }
 #end-menu {
-  line-height: 0.3em;
+  line-height: 1.8em;
   height: 150px;
   background-color: #945600;
+  color: white;
   height: 2em;
+  text-align: center;
 }
 #footer {
   height: 4em;
@@ -122,4 +146,42 @@ body {
   line-height: 60px;
   padding-left: 20px;
   margin-bottom: 18px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: 999;
+  padding: 0.5em;
+}
+
+hr {
+  height: 1px;
+  color: #621b00;
+  background-color: #621b00;
+  border: none;
+}
+#call-me {
+  transform: translateY(-150%);
+}
+
+#photo-card:hover #call-me {
+  transform: translateX(0);
+  transition: transform 0.5s;
+}
+#call-me {
+  width: 180px;
+  height: 80px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background-color: #621b00;
+  border-radius: 50px 50px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  line-height: 80px;
+  cursor: pointer;
+}
+#ending {
+  border: solid #621b00;
 }
