@@ -11,6 +11,8 @@ body {
   padding-left: 20px;
 }
 #menu {
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   line-height: 0.3em;
   height: 150px;
   background-color: #945600;
@@ -20,6 +22,9 @@ body {
   display: inline-grid;
   padding-left: 20px;
 }
+#menu p:hover {
+  cursor: pointer;
+}
 #D-letter {
   color: #010001;
   font-size: larger;
@@ -27,7 +32,27 @@ body {
 }
 
 #greeting {
-  width: 50%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 45%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #2f1000;
+  display: inline-block;
+}
+#myul {
+  text-align: justify;
+}
+#info {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: inline-block;
+  width: 45%;
   margin-bottom: 20px;
   margin-top: 20px;
   margin-left: 20px;
@@ -37,20 +62,48 @@ body {
   border-radius: 15px;
   background-color: #2f1000;
 }
+#about {
+  text-align: center;
+}
+#ed {
+  text-align: left;
+}
+#info span {
+  color: #3983fa;
+  text-align: left;
+}
+#we {
+  text-align: left;
+}
 
 #photo-card {
   width: 500px;
   height: 550px;
   position: relative;
-  margin-left: auto;
-  margin-right: 20px;
-  top: 5vh;
+  margin-left: 10%;
+  margin-right: auto;
   border-radius: 60px;
   overflow: hidden;
   display: block;
   margin-bottom: 3%;
 }
-#photo-card:hover {
+#photo-card p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  user-select: none;
+}
+
+#photo-card img:hover {
+  filter: blur(10px);
 }
 #face-photo {
   width: 100%;
